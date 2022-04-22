@@ -1,0 +1,19 @@
+#include <stido.h>
+int main() {
+char operator;
+int num1,num2;
+scanf("%c %d %d",&operator,&num1,&num2);
+switch(operator){
+case '+' :
+printf("%d+%d=%d",num1,num2,num+num2);break;
+case '-' :
+printf("%d-%d=%d",num1,num2,num-num2);break;
+case '*' :
+printf("%d*%d=%d",num1,num2,num*num2);break;
+case '/' :
+printf("%d/%d=%d",num1,num2,num/num2);break;
+case '%' :
+printf("%d%%d=%d",num1,num2,num%num2);break;
+default :
+printf("Invalid Operator"); }
+return 0;
